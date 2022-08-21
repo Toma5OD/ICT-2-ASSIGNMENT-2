@@ -166,3 +166,22 @@ export const getTopRatedMovies = () => {
       throw error;
     });
 };
+
+export const getSimilarMovies = (args) => {
+  const [, idPart] = args.queryKey;
+  const { id } = idPart;
+  console.log("fetching");
+  console.log(id);
+  return fetch(
+    `https://api.themoviedb.org/3/movie/${id}/similar?api_key=${process.env.REACT_APP_TMDB_KEY}&language=en-US`
+  ).then((response) => {
+    if (!response.ok) {
+      throw new Error(response.json().message);
+    }
+    return response.json();
+  })
+  .catch((error) => {
+    console.log(error);
+    throw error
+ });
+};

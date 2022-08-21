@@ -7,10 +7,9 @@ import CardMedia from "@material-ui/core/CardMedia";
 import CardHeader from "@material-ui/core/CardHeader";
 import Typography from "@material-ui/core/Typography";
 
-
 const useStyles = makeStyles({
-    card: { maxWidth: 173 },
-    media: { height: 250 },
+    card: { maxWidth: 210 },
+    media: { height: 250, color: "#FFF",  },
 });
 
 export default function CastMemberCard({ actor }) {

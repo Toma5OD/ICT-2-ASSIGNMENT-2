@@ -80,12 +80,6 @@ const classes = useStyles();
           </li>
         ))}
       </Paper>
-      <Paper component="ul" className={classes.chipSet}>
-          <h2>Show Cast</h2>
-          <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
-            <ListCast />
-          </Grid>
-        </Paper>
       </div>
     </>
   );

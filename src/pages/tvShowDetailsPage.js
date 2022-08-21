@@ -5,7 +5,7 @@ import PageTemplate from "../components/templateTvPage";
 import { getTVShow } from "../api/tmdb-api";
 import { useQuery } from "react-query";
 import Spinner from "../components/spinner";
-
+import CastList from "../components/castList";
 
 const TVShowDetailsPage = () => {
     const { id } = useParams();
@@ -31,6 +31,7 @@ const TVShowDetailsPage = () => {
                 <>
                     <PageTemplate tvShow={tvShow}>
                         <TvShowDetails tvShow={tvShow} />
+                        <CastList />
                     </PageTemplate>
                 </>
             ) : (
