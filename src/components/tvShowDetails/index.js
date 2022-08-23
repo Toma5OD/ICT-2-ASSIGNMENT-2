@@ -4,9 +4,6 @@ import Paper from "@material-ui/core/Paper";
 import AccessTimeIcon from "@material-ui/icons/AccessTime";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
-import ListCast from "../listCast";
-import { Grid } from "@material-ui/core";
-import MonetizationIcon from "@material-ui/icons/MonetizationOn";
 
 const useStyles = makeStyles((theme) => ({
   chipRoot: {

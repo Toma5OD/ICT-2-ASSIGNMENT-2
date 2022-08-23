@@ -25,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
 
 const TemplateTvPage = ({ tvShow, children }) => {
   const classes = useStyles();
-  const { data, error, isLoading, isError } = useQuery(
+  const { error, isLoading, isError } = useQuery(
     ["images", { id: tvShow.id }],
     getTvImages
   );
