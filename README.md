@@ -3,6 +3,8 @@
 My name is Tomas O Dalaigh and this is my assignment submission for ICT Skills 2.
 My student number is 20095582.
 
+Video: https://youtu.be/nX-5X6pE1SA
+
 This is a Movie and TV show web application with basic React UI and basic functionality.
 The application uses The Movie Data Base API to load data for running the application.
 
