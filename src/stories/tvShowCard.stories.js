@@ -1,6 +1,6 @@
 import React from "react";
 import TvShowCard from "../components/tvShowCard";
-import { sampleTV } from "./sampleData";
+import sampleTV from "./sampleData";
 import { MemoryRouter } from "react-router-dom";
 import MoviesContextProvider from "../contexts/moviesContext";
 import AddToFavouritesIcon from "../components/cardIcons/addToFavourites";

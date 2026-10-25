@@ -1,7 +1,7 @@
 import React from "react";
 import FilterMoviesCard from "../components/filterMoviesCard";
 import { MemoryRouter } from "react-router";
-import { action } from "@storybook/addon-actions";
+import { action } from "storybook/actions";
 import { QueryClientProvider, QueryClient } from "react-query";
 
 const queryClient = new QueryClient({
